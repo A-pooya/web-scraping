@@ -2,6 +2,8 @@ const puppeteer = require('puppeteer');
 const Scraper = require('./classBase-puppeteer');
 const ScraperF = require('./functoinBase');
 //*self invoke function
+//!use classBase
+
 // (async() => {
 //     let browser;
 //     let page;
@@ -22,6 +24,7 @@ const ScraperF = require('./functoinBase');
 //     await browser.close()
 // })();
 
+//!use functionalBase
 (async() => {
     let browser;
     let page;
